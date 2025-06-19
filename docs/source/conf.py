@@ -17,7 +17,16 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'myst_parser',
 ]
+
+myst_enable_extensions = [
+    "html_admonition",
+    "html_image",
+    "attrs_inline",   # enables `{width=40%}` after images
+    "attrs_block"     # enables block-level attributes (optional)
+]
+
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
@@ -30,6 +39,11 @@ templates_path = ['_templates']
 # -- Options for HTML output
 
 html_theme = 'sphinx_rtd_theme'
+
+html_theme_options = {
+    "navigation_depth": 4,
+    "prev_next_buttons_location": "bottom",  # default is bottom
+}
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
