@@ -1,0 +1,10 @@
+{% extends "!layout.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+  <script>
+    if (window.location.hostname.includes("vscouter-docs.netlify.app")) {
+      window.location.replace("https://vscouter.netlify.app/docs/");
+    }
+  </script>
+{% endblock %}

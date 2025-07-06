@@ -48,3 +48,5 @@ html_theme_options = {
 epub_show_urls = 'footnote'
 
 html_favicon = 'favicon.ico'
+
+templates_path = ['_templates']
