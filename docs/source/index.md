@@ -36,6 +36,9 @@ If you want to use this or need support, email me at `chhabria.vihaan2@gmail.com
 :maxdepth: 2
 :caption: Main Sections
 
-getting-started.md
+website.md
+collecting-data.md
+parsing-data.md
+analysis.md
 auto-completion-match-data.md
 ```
