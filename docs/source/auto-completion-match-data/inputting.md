@@ -10,7 +10,7 @@ There are two ways to input match data into the app:
 4.  Scan the QR code with your scouting device.
 5.  Once the QR code is scanned, click Submit to input the match data into the app.
 
-![AutoMatchSuggestionsOnline](readmeimages/AutoMatchSuggestionsOnline.gif)
+![AutoMatchSuggestionsOnline](../readmeimages/AutoMatchSuggestionsOnline.gif)
 
 ### Manually Inputting a Match Data File
 
@@ -20,4 +20,4 @@ There are two ways to input match data into the app:
 4.  Select the match data file you want to input from your device.
 5.  Once the file is selected, click Submit to input the match data into the app.
 
-![AutoMatchSuggestionsOffline](readmeimages/AutoMatchSuggestionsOffline.gif)
+![AutoMatchSuggestionsOffline](../readmeimages/AutoMatchSuggestionsOffline.gif)
